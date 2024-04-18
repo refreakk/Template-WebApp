@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Template WebApp Telegram
 
-## Getting Started
+This template is under development. Implemented using Next.js with Drizzle ORM to interact with the database directly in the project without deploying additional services.
 
-First, run the development server:
+## Description
+
+This template is designed to serve as a foundation for developing web applications. It leverages Next.js, a popular React framework for building server-side rendered and static web applications. Additionally, it incorporates Drizzle ORM, enabling seamless interaction with the database within the project itself, eliminating the need for deploying separate database services.
+
+## Deployment
+
+To install this project:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+To dev this project run:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+  npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+To dev this project build:
 
-## Learn More
+```bash
+  npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+**Client:** Next.js, TailwindCSS, Drizzle ORM
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Authors
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Github](https://www.github.com/refreakk)
+- [Telegram](https://www.t.me/refreak)
+- [Email](mailto:dimkaboin@yandex.ru)
+
