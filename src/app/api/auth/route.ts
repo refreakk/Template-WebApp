@@ -2,8 +2,8 @@ import { createHmac } from 'crypto';
 import { NextRequest, NextResponse } from 'next/server';
 
 type Data = { ok: boolean } | { error: string };
-const BOT_TOKEN = "6537418906:AAE1FkuIFmWQXQia-gbaO257X4bkBEhiD2s";
 export async function POST(req: NextRequest) {
+  const BOT_TOKEN = process.env.BOT_TOKEN;
   if (req.method !== 'POST') {
     return NextResponse.json({ error: 'Method not allowed' }, { status: 405 });
   }
