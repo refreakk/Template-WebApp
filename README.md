@@ -29,7 +29,7 @@ To dev this project build:
 
 ## Tech Stack
 
-**Client:** Next.js, TailwindCSS, Drizzle ORM
+**Client:** Next.js, TailwindCSS, Drizzle ORM, Redux
 
 
 ## Authors
