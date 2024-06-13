@@ -1,4 +1,4 @@
-import type { TelegramWebApps } from 'telegram-webapps-types';
+import type { TelegramWebApps } from 'telegram-webapps-types-new';
 
 declare global {
     interface Window {
